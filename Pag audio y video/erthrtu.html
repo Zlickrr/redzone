@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .red-zone {
+            color: black;
+            font-size: 2em;
+        }
+        .red-zone .red {
+            color: red;
+        }
+        .masa-aparte {
+            font-size: 4em;
+            margin-left: 20px;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 1em;
+            transition: color 0.3s;
+        }
+        .nav a:hover {
+            color: red;
+        }
+        .logos {
+            display: flex;
+            gap: 10px;
+        }
+        .logos img {
+            width: 40px; /* Adjust the size as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <span class="red-zone">RED <span class="red">ZONE</span></span>
+        </div>
+        <div class="nav">
+            <a href="#nav1">Nav 1</a>
+            <a href="#nav2">Nav 2</a>
+            <a href="#nav3">Nav 3</a>
+            <a href="#nav4">Nav 4</a>
+        </div>
+        <div class="logos">
+            <img src="mig/mexicah udc.png" alt="Logo 1">
+            <img src="mig/Halcones-uver.webp" alt="Logo 2">
+            <img src="mig/zorros.jfif" alt="Logo 3">
+        </div>
+    </div>
+</body>
+</html>
